@@ -17,7 +17,7 @@ const routes = {
   "ecr.panshengpeng.so": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.panshengpeng.so": dockerHub,
 };
 
 function routeByHosts(host) {
