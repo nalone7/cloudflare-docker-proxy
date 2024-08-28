@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.nalone.us.kg.so": dockerHub,
-  "quay.nalone.us.kg.so": "https://quay.io",
-  "gcr.nalone.us.kg.so": "https://gcr.io",
-  "k8s-gcr.nalone.us.kg.so": "https://k8s.gcr.io",
-  "k8s.nalone.us.kg.so": "https://registry.k8s.io",
-  "ghcr.nalone.us.kg.so": "https://ghcr.io",
-  "cloudsmith.nalone.us.kg.so": "https://docker.cloudsmith.io",
-  "ecr.nalone.us.kg.so": "https://public.ecr.aws",
+  "docker.nalone.us.kg": dockerHub,
+  "quay.nalone.us.kg": "https://quay.io",
+  "gcr.nalone.us.kg": "https://gcr.io",
+  "k8s-gcr.nalone.us.kg": "https://k8s.gcr.io",
+  "k8s.nalone.us.kg": "https://registry.k8s.io",
+  "ghcr.nalone.us.kg": "https://ghcr.io",
+  "cloudsmith.nalone.us.kg": "https://docker.cloudsmith.io",
+  "ecr.nalone.us.kg": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.nalone.us.kg.so": dockerHub,
+  "docker-staging.nalone.us.kg": dockerHub,
 };
 
 function routeByHosts(host) {
